@@ -1,0 +1,5 @@
+f = open("demo.txt", "r")
+print("Position:", f.tell())
+f.seek(6)
+print(f.read())
+f.close()
